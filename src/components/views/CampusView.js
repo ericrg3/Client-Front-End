@@ -18,7 +18,8 @@ const CampusView = (props) => {
       <p>{campus.address}</p>
       <h6>ID: {campus.id}</h6>
       <p>{campus.description}</p>
-      {campus.students.length === 0 ? <p>No students enrolled at this </p>: null}
+      {campus.students.length === 0 ? 
+      <p>No students enrolled at this </p>: null}
       {campus.students.map( student => {
         let name = student.firstname + " " + student.lastname;
         return (
