@@ -52,7 +52,7 @@ class NewCampusContainer extends Component {
       description: "",
       imageUrl: "",
       redirect: true,
-      redirectId: newCampus.id,
+      //redirectId: newCampus.id,
     });
   }
 

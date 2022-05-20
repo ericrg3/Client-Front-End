@@ -62,7 +62,7 @@ class NewStudentContainer extends Component {
       imageURL: null,
       campusId: null, 
       redirect: true, 
-      redirectId: newStudent.id
+      //redirectId: newStudent.id,
     });
   }
 
