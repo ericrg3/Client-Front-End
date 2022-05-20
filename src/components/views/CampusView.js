@@ -13,11 +13,11 @@ const CampusView = (props) => {
   // Render a single Campus view with list of its students
   return (
     <div>
-      <h1>{campus.name}</h1>
-      <img src={campus.imageUrl} width="300px" alt="campus" />
-      <p>{campus.address}</p>
-      <h6>ID: {campus.id}</h6>
-      <p>{campus.description}</p>
+      <h1>Campus Name:{campus.name}</h1>
+      <img src={campus.imageUrl} width="300px" alt="campus image" />
+      <p>Campus Address{campus.address}</p>
+      
+      <p>Campus Description:{campus.description}</p>
       {campus.students.length === 0 ? 
       <p>No students enrolled at this </p>: null}
       {campus.students.map( student => {
